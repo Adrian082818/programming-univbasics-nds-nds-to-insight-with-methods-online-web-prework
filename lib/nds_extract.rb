@@ -33,7 +33,6 @@ def gross_for_director(director_data)
   inner_len = director_data.length
   movies = director_data[:movies]
   while inner_index < movies.length do
-    # binding.pry
     total += movies[inner_index][:worldwide_gross]
     inner_index += 1 
   end 
